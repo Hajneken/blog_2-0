@@ -46,11 +46,11 @@ export const FooterImpl: React.FC = () => {
         <p>
           Written by <strong>Hynek Zemanec</strong> who lives and works in
           Vienna, Austria, building beautiful things. Follow him on{' '}
-          <a href='https://twitter.com/Hynas17' rel="noopener" target={'_blank'}>
+          <a href='https://twitter.com/Hynas17' rel='noopener noreferrer' target={'_blank'}>
             Twitter
           </a>{' '}
           and check out his{' '}
-          <a href='https://www.instagram.com/hynekpics/' rel="noopener" target={'_blank'}>
+          <a href='https://www.instagram.com/hynekpics/' rel='noopener noreferrer' target={'_blank'}>
             Photography adventures
           </a>
         </p>
@@ -63,6 +63,7 @@ export const FooterImpl: React.FC = () => {
             style={{ textDecoration: 'underline' }}
             href='https://zemanec.me/'
             target={'_blank'}
+            rel='noopener noreferrer'
           >
             {config.author}
           </a>
